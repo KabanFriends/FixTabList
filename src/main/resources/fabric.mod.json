@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "fixtablist",
+	"version": "${version}",
+	"name": "FixTabList",
+	"description": "Fixes the tablist translucency bug (MC-263256)",
+	"authors": [
+		"KabanFriends"
+	],
+	"contact": {
+		"sources": "https://github.com/KabanFriends/FixTabList",
+		"issues": "https://github.com/KabanFriends/FixTabList/issues"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/fixtablist/icon.png",
+	"environment": "client",
+	"mixins": [
+		"fixtablist.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20",
+		"java": ">=17"
+	}
+}
